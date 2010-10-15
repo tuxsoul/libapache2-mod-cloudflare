@@ -24,3 +24,4 @@ if [ -e /etc/apache2/apache2.conf ]; then
         reload_apache
 fi
 
+#DEBHELPER#
