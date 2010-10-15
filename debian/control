@@ -10,15 +10,15 @@ Architecture: any
 Depends: apache2.2-common, ${shlibs:Depends}
 Conflicts: libapache2-mod-rpaf
 Description: based on mod_remoteip.c, this apache extension
-  will replace the remote_ip variable in user's logs with the correct
-  remote_ip sent from cloudflare.
-  .
-  this also does authentication, only performing the switch for requests
-  originating from 204.93.173.0/24 (by default).
-  .
-  cloudflare protects and accelerates any website online. once your website is
-  a part of the cloudflare community, its web traffic is routed through our
-  intelligent global network. we also block threats and limit abusive bots and
-  crawlers from wasting your bandwidth and server resources.
-  .
-  more info: http://www.cloudflare.com
+ will replace the remote_ip variable in user's logs with the correct remote_ip
+ sent from cloudflare.
+ .
+ this also does authentication, only performing the switch for requests
+ originating from 204.93.173.0/24 (by default).
+ .
+ cloudflare protects and accelerates any website online. once your website is
+ a part of the cloudflare community, its web traffic is routed through our
+ intelligent global network. we also block threats and limit abusive bots and
+ crawlers from wasting your bandwidth and server resources.
+ .
+ more info: http://www.cloudflare.com
