@@ -1,0 +1,23 @@
+Source: libapache2-mod-cloudflare
+Section: web
+Priority: optional
+Maintainer: Mario Oyorzabal Salgado <tuxsoul@tuxsoul.com>
+Build-Depends: debhelper (>> 4.0.0), apache2-threaded-dev
+Standards-Version: 3.7.2.2
+
+Package: libapache2-mod-cloudflare
+Architecture: any
+Depends: apache2.2-common, ${shlibs:Depends}
+Description: based on mod_remoteip.c, this apache extension will replace the
+  remote_ip variable in user's logs with the correct remote_ip sent from
+  CloudFlare.
+  .
+  This also does authentication, only performing the switch for requests
+  originating from 204.93.173.0/24 (by default).
+  .
+  CloudFlare protects and accelerates any website online. Once your website
+  is a part of the CloudFlare community, its web traffic is routed through our
+  intelligent global network. We also block threats and limit abusive bots and
+  crawlers from wasting your bandwidth and server resources.
+  .
+  http://www.cloudflare.com

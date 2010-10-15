@@ -1,0 +1,6 @@
+libapache2-mod-cloudflare (1.0.0-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Mario Oyorzabal Salgado <tuxsoul@tuxsoul.com>  Thu, 14 Oct 2010 20:09:26 -0500
+
