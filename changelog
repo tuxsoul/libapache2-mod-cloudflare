@@ -1,0 +1,63 @@
+commit 4c2a76ff4192a342294ad7792b52979595b9f12d
+Author: Ian Pye <ian@cloudflare.com>
+Date:   Thu Oct 14 18:13:31 2010 -0700
+
+    added a verion number to mod_cloudflare
+
+commit c814c32d5f40839538fa9d9bec704e3bcfd51e95
+Author: Ian Pye <ian@cloudflare.com>
+Date:   Fri Oct 8 11:57:40 2010 -0700
+
+    removed old 66.225.125.0 subnet from the list of CF ips
+
+commit 55008873d9c310b5490d55e1b6db4d454478a92b
+Author: Ian Pye <ian@cloudflare.com>
+Date:   Thu Aug 19 16:29:27 2010 -0700
+
+    updated mod_cloudflare to include our new IP space
+
+commit 450490d7a28e3f49125f12ac7cb78a90b0543a27
+Author: Ian <ian@cloudflare.com>
+Date:   Wed Jul 21 11:24:42 2010 -0700
+
+    added an extra secure mode so that if the directive
+DenyAllButCloudFlare is set, only requests from CloudFlare are allowed
+
+commit ab45027975bca29428ed1f00d9de87dc55bc878d
+Author: Ian <ian@cloudflare.com>
+Date:   Tue Jul 20 17:07:02 2010 -0700
+
+    update to mod_cloudlare with makes it run before mod_security
+
+commit cd34b97e573b9f6bdd4cbfa46bf5e1a03f290f27
+Author: Ian <ian@cloudflare.com>
+Date:   Fri Jul 9 18:28:12 2010 -0700
+
+    updated to use the new expanded range of CloudFlare IPs for
+default trusted IPs
+
+commit 4aa9719537efa8dc19b4cf51c8858f56e6d04a3a
+Author: Ian <ian@cloudflare.com>
+Date:   Wed Jun 23 14:35:09 2010 -0700
+
+    fixed issues with mod_authz_host
+
+commit dde30d81790acb8cf7520dc4d2d6b6a6821d53f4
+Author: Ian <ian@cloudflare.com>
+Date:   Fri Jun 18 15:26:38 2010 -0700
+
+    removed code which removes the header used to set the IP
+
+commit 75b7b01dfe404b5ecc14bc29f67b8da40fdb07b4
+Author: Ian <ian@cloudflare.com>
+Date:   Tue Jun 15 16:48:18 2010 -0700
+
+    fixed a memory leak with mod_cloudflare
+
+commit 9f351c37a2e87ca8ba0b86a9f59b44fec0bc8b13
+Author: Ian <ian@cloudflare.com>
+Date:   Mon Jun 14 15:20:56 2010 -0700
+
+    added apache module which makes a 0 config module for making
+remote ips work with cloudflare
+
