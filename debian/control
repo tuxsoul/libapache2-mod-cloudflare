@@ -9,7 +9,6 @@ Homepage: http://www.cloudflare.com
 Package: libapache2-mod-cloudflare
 Architecture: any
 Depends: apache2.2-common, ${shlibs:Depends}
-Conflicts: libapache2-mod-rpaf
 Description: based on mod_remoteip.c, this apache extension
  will replace the remote_ip variable in user's logs with the correct remote_ip
  sent from cloudflare.
