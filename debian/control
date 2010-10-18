@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Mario Oyorzabal Salgado <tuxsoul@tuxsoul.com>
 Build-Depends: debhelper (>> 4.0.0), apache2-threaded-dev
 Standards-Version: 3.7.2.2
+Homepage: http://www.cloudflare.com
 
 Package: libapache2-mod-cloudflare
 Architecture: any
@@ -20,5 +21,3 @@ Description: based on mod_remoteip.c, this apache extension
  a part of the cloudflare community, its web traffic is routed through our
  intelligent global network. we also block threats and limit abusive bots and
  crawlers from wasting your bandwidth and server resources.
- .
- more info: http://www.cloudflare.com
