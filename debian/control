@@ -2,7 +2,7 @@ Source: libapache2-mod-cloudflare
 Section: web
 Priority: optional
 Maintainer: Mario Oyorzabal Salgado <tuxsoul@tuxsoul.com>
-Build-Depends: debhelper (>> 4.0.0), apache2-threaded-dev
+Build-Depends: debhelper (>> 4.0.0), apache2-prefork-dev
 Standards-Version: 3.7.2.2
 Homepage: http://www.cloudflare.com
 
