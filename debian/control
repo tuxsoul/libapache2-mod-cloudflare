@@ -9,7 +9,7 @@ Homepage: http://www.cloudflare.com
 Package: libapache2-mod-cloudflare
 Architecture: any
 Depends: apache2.2-common, ${shlibs:Depends}
-Description: replace the remote_ip with the remote_ip sent from cloudflare
+Description: Correctly reports remote_ip when on CloudFlare network
  based on mod_remoteip.c, this apache extension will replace the remote_ip
  variable in user's logs with the correct remote_ip sent from cloudflare.
  .
